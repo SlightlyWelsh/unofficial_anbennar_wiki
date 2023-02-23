@@ -1,0 +1,11 @@
+#Information
+ - Title: Caught in the Act
+ - ID: new_court_flavour_events.13
+#Description
+Caught in the Act
+#Options
+
+___
+##Our gratitude shall be eternal.
+
+###Efects:<ul><li>trigger switch:</li><ul><li>on trigger = has_country_flag</li><li>advisor events adm:</li><ul><li>remove advisor by category no action = ADM</li></ul><li>advisor events dip:</li><ul><li>remove advisor by category no action = DIP</li></ul><li>advisor events mil:</li><ul><li>remove advisor by category no action = MIL</li></ul></ul></ul>

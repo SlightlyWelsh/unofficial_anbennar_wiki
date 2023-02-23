@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [chumijemoya_magic_menu_npsestate_magic_chumijemoya_bgps_n_n_n_n_root_getspellstrengthindicatorchumijemoya](../events/chumijemoya_magic_menu_npsestate_magic_chumijemoya_bgps_n_n_n_n_root_getspellstrengthindicatorchumijemoya.md)
+ - [missing_localisation_flavor_azjakuma_1256_t](../events/missing_localisation_flavor_azjakuma_1256_t.md)

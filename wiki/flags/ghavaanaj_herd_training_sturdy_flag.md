@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [country_adj_herd_npsui_ghavaanaj_herd_windowps_n_n_root_getghavaanajtrainingtotalbonus](../events/country_adj_herd_npsui_ghavaanaj_herd_windowps_n_n_root_getghavaanajtrainingtotalbonus.md)
+ - [country_adj_herd_npsui_ghavaanaj_herd_windowps_n_n_root_getghavaanajtrainingtotalbonus_1](../events/country_adj_herd_npsui_ghavaanaj_herd_windowps_n_n_root_getghavaanajtrainingtotalbonus_1.md)

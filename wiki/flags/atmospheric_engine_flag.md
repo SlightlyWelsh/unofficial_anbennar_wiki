@@ -1,0 +1,12 @@
+This flag is used in the following pages:
+ - [canals_and_turnpikes](../events/canals_and_turnpikes.md)
+ - [economic_development](../events/economic_development.md)
+ - [growth_of_the_industrialization_province_getname_textile_industry](../events/growth_of_the_industrialization_province_getname_textile_industry.md)
+ - [growth_of_the_paper_industry](../events/growth_of_the_paper_industry.md)
+ - [growth_of_the_glass_province_getname_glass_industry](../events/growth_of_the_glass_province_getname_glass_industry.md)
+ - [industrial_urbanization](../events/industrial_urbanization.md)
+ - [the_iron_province_getname_metalworks](../events/the_iron_province_getname_metalworks.md)
+ - [textile_mills_of_textile_province_getname](../events/textile_mills_of_textile_province_getname.md)
+ - [shipyards_of_ship_province_getname](../events/shipyards_of_ship_province_getname.md)
+ - [hostility_to_new_production_techniques](../events/hostility_to_new_production_techniques.md)
+ - [impoverished_artisans](../events/impoverished_artisans.md)

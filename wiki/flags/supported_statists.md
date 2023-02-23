@@ -1,0 +1,12 @@
+This flag is used in the following pages:
+ - [absolute_power](../events/absolute_power.md)
+ - [political_maxims_of_the_root_governmentname](../events/political_maxims_of_the_root_governmentname.md)
+ - [sermons_for_princes](../events/sermons_for_princes.md)
+ - [the_root_governmentname_and_free_trade](../events/the_root_governmentname_and_free_trade.md)
+ - [nobles_look_to_other_houses](../events/nobles_look_to_other_houses.md)
+ - [true_freedom](../events/true_freedom.md)
+ - [act_of_seclusion](../events/act_of_seclusion.md)
+ - [unbreakable_bonds](../events/unbreakable_bonds.md)
+ - [nobility_ties_in_the_army](../events/nobility_ties_in_the_army.md)
+ - [nobles_look_to_the_prince_of_root_getname](../events/nobles_look_to_the_prince_of_root_getname.md)
+ - [successes_of_the_root_governmentname](../events/successes_of_the_root_governmentname.md)

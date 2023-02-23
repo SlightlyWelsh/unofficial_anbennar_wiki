@@ -1,0 +1,10 @@
+This flag is used in the following pages:
+ - [the_dispute](../events/the_dispute.md)
+ - [the_great_betrayal](../events/the_great_betrayal.md)
+ - [the_trumpets_of_war](../events/the_trumpets_of_war.md)
+ - [enuuk_followers_assemble](../events/enuuk_followers_assemble.md)
+ - [enuuk_prevails](../events/enuuk_prevails.md)
+ - [kodave_prevail](../events/kodave_prevail.md)
+ - [the_breaking_point](../events/the_breaking_point.md)
+ - [all_hell_let_loose](../events/all_hell_let_loose.md)
+ - [the_trumpets_of_war_1](../events/the_trumpets_of_war_1.md)

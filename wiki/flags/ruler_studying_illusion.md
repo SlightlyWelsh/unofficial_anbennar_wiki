@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [illusion_npsruler_magic_illusion_bgps_n_n_root_getschoolmasteryillusion_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis](../events/illusion_npsruler_magic_illusion_bgps_n_n_root_getschoolmasteryillusion_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis.md)
+ - [study_illusion](../events/study_illusion.md)

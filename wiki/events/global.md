@@ -1,0 +1,1 @@
+ - [global_trade2](global_trade2.md)

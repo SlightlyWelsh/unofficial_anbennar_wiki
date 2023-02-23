@@ -1,0 +1,11 @@
+#Information
+ - Title: Ride the Last Wave
+ - ID: verkaldromak.69
+#Description
+Ride the Last Wave
+#Options
+
+___
+##This isn’t merely an end but a new beginning!
+
+###Efects:<ul><li>capital scope:</li><ul><li>add devastation = 100</li><li>add base production = -3</li><li>add base manpower = -3</li><li>add base tax = -3</li><li>If has province modifier is dig 2:</li><ul><li>remove province modifier = dig_2</li><li>add permanent province modifier:</li><ul><li>name = dig_1</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 3:</li><ul><li>remove province modifier = dig_3</li><li>add permanent province modifier:</li><ul><li>name = dig_2</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 4:</li><ul><li>remove province modifier = dig_4</li><li>add permanent province modifier:</li><ul><li>name = dig_3</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 5:</li><ul><li>remove province modifier = dig_5</li><li>add permanent province modifier:</li><ul><li>name = dig_4</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 6:</li><ul><li>remove province modifier = dig_6</li><li>add permanent province modifier:</li><ul><li>name = dig_5</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 7:</li><ul><li>remove province modifier = dig_7</li><li>add permanent province modifier:</li><ul><li>name = dig_6</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 8:</li><ul><li>remove province modifier = dig_8</li><li>add permanent province modifier:</li><ul><li>name = dig_7</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 9:</li><ul><li>remove province modifier = dig_9</li><li>add permanent province modifier:</li><ul><li>name = dig_8</li><li>duration = -1</li></ul></ul><li>Else if has province modifier is dig 10:</li><ul><li>remove province modifier = dig_10</li><li>add permanent province modifier:</li><ul><li>name = dig_9</li><li>duration = -1</li></ul></ul><li>add permanent province modifier:</li><ul><li>name = I25_altar_visitors</li><li>duration = -1</li></ul><li>change trade goods = precursor_relics</li></ul><li>country gets the modifier I25_everything_for_science until otherwise removed</li></ul>

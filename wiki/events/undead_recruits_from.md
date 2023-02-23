@@ -1,0 +1,1 @@
+ - [undead_recruits_from_battle2](undead_recruits_from_battle2.md)

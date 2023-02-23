@@ -1,0 +1,5 @@
+This is a list of all [decisions](decisions.md) in the category "Hon_Sai_Decisions"
+
+| Decision | Completion requirements | Effects | Requirements to appear |
+| ----- | ------ | ----- | ------ |
+| <a name="honsai_ghostemperor_decision_menu">Ghost-Emperor Menu</a><br />*Shows the remaining willpower of the Ghost-Emperor and let's the player choose between different options to prolong his existence.* | <li>hidden trigger:</li><ul><li>None of the following:</li><ul><li>has country flag [ghostemperor_decision_menu_opened](../flags/ghostemperor_decision_menu_opened.md)</li></ul></ul> | <li>hidden effect:</li><ul><li>the event [Ghost-Emperor Menu](../events/ghost_emperor_menu.md) happens</li><li>set country flag [ghostemperor_decision_menu_opened](../flags/ghostemperor_decision_menu_opened.md)</li></ul> | <li>Any of the following:</li><ul><li>Country is Y66</li><li>Country was Y66</li></ul><li>has country flag [anchor_to_reality](../flags/anchor_to_reality.md)</li><li>is not controlled by the AI</li> |

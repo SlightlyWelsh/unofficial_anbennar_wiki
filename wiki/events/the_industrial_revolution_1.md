@@ -1,0 +1,16 @@
+This page has the same name as others. For full listing see bottom of [the base page](the_industrial_revolution.md).
+
+#Information
+ - Title: The Industrial Revolution
+ - ID: institution_events.800
+#Description
+The Industrial Revolution
+#Mean Time to Happen:
+Base time = 1 days
+
+#Options
+
+___
+##This changes everything...
+
+###Efects:<ul><li>custom tooltip = institution_events.80.a.tt</li></ul>

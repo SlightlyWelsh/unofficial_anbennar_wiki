@@ -1,0 +1,30 @@
+#Information
+ - Title: Rejected by the Trials
+ - ID: castanortrials.15
+#Description
+Rejected by the Trials
+#Options
+
+___
+##There is nothing to worry about!
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform original_castanor_trials_reform</li></ul>
+
+###Efects:<ul><li>castanor trials clear trials flags effect = yes</li><li>If has tag is B32, and has tag is Z34:</li><ul><li>add legitimacy = -10</li><li>add prestige = -10</li><li>reduce stability or adm power = yes</li><li>add ruler modifier:</li><ul><li>name = castanortrials_failed_alive</li><li>duration = 7300</li></ul></ul><li>else:</li><ul><li>add legitimacy = -5</li><li>add prestige = -5</li><li>reduce stability or adm power = yes</li></ul></ul>
+
+___
+##Who needs the Trials anyways?
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform original_castanor_trials_reform</li></ul>
+
+###Efects:<ul><li>castanor trials clear trials flags effect = yes</li><li>If has tag is B32, and has tag is Z34:</li><ul><li>add ruler modifier:</li><ul><li>name = castanortrials_failed_alive</li><li>duration = 7300</li></ul><li>add legitimacy = -20</li><li>add prestige = -20</li></ul><li>else:</li><ul><li>add legitimacy = -10</li><li>add prestige = -10</li></ul></ul>
+
+___
+##Will another succeed where this one failed?
+
+###Available if:
+<li>has reform original_castanor_trials_reform</li>
+
+###Efects:<ul><li>hidden effect:</li><ul><li>random list:</li><ul><li>2:</li><ul><li>trigger:</li><ul><li>NOT:</li><ul><li>has country flag [castanor_trials_solo_candidate](../flags/castanor_trials_solo_candidate.md)</li></ul></ul><li>the event [Trials of Castan: Another Passes](../events/trials_of_castan_another_passes2.md) happens</li></ul><li>1:</li><ul><li>castanor trials clear candidate flags effect = yes</li><li>castanor trials clear trials flags effect = yes</li></ul></ul></ul></ul>

@@ -1,0 +1,5 @@
+This is a list of all [decisions](decisions.md) in the category "Verkal_Skomdihr_Decisions"
+
+| Decision | Completion requirements | Effects | Requirements to appear |
+| ----- | ------ | ----- | ------ |
+| <a name="verkalskomdihr_build_warding_gate">Build a Warding Gate</a><br />** | <li>treasury is at least 350</li> | <li>the event [Build a Warding Gate](../events/build_a_warding_gate.md) happens</li><li>hidden effect:</li><ul><li>set country flag [verkalskomdihr_gate_menu](../flags/verkalskomdihr_gate_menu.md)</li></ul> | <li>has country flag [verkalskomdihr_warding_gate_unlocked](../flags/verkalskomdihr_warding_gate_unlocked.md)</li><li>None of the following:</li><ul><li>has country flag [verkalskomdihr_gate_menu](../flags/verkalskomdihr_gate_menu.md)</li></ul><li>hold province:</li><ul><li>owned by is this nation</li><li>None of the following:</li><ul><li>province id is at least 4100</li></ul><li>NOT:</li><ul><li>has province modifier verkalskomdihr_the_warding_gate_4</li></ul></ul> |

@@ -1,0 +1,6 @@
+ - [wisdom_of_the_ancestors2](wisdom_of_the_ancestors2.md)
+ - [wisdom_of_the_ancestors2](wisdom_of_the_ancestors2.md)
+ - [wisdom_of_the_ancestors2](wisdom_of_the_ancestors2.md)
+ - [wisdom_of_the_ancestors22](wisdom_of_the_ancestors22.md)
+ - [wisdom_of_the_ancestors2](wisdom_of_the_ancestors2.md)
+ - [wisdom_of_the_ancestors22](wisdom_of_the_ancestors22.md)

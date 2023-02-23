@@ -1,0 +1,1 @@
+ - [trial_of_castan_xxxvi_dragonfriend2](trial_of_castan_xxxvi_dragonfriend2.md)

@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [command_army_abilities_npsicon_command_army_bannerps_n_root_getcommandwarroombanner](../events/command_army_abilities_npsicon_command_army_bannerps_n_root_getcommandwarroombanner.md)
+ - [command_army_abilities_npsicon_command_army_bannerps_n_root_getcommandwarroombanner_1](../events/command_army_abilities_npsicon_command_army_bannerps_n_root_getcommandwarroombanner_1.md)

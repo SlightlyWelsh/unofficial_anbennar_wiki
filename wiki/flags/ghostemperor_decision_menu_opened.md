@@ -1,0 +1,10 @@
+This flag is used in the following pages:
+ - [ghost_emperor_menu](../events/ghost_emperor_menu.md)
+ - [search_for_a_mystic_practitioner](../events/search_for_a_mystic_practitioner.md)
+ - [proclaim_baihon_xinh_as_an_empire](../events/proclaim_baihon_xinh_as_an_empire.md)
+ - [let_the_ghost_emperor_return_to_the_spirit_realm](../events/let_the_ghost_emperor_return_to_the_spirit_realm.md)
+ - [kidnap_hebat_hari_practitioners](../events/kidnap_hebat_hari_practitioners.md)
+ - [the_gem_of_fascination](../events/the_gem_of_fascination.md)
+ - [chien_binhrung_refused](../events/chien_binhrung_refused.md)
+ - [a_new_form_of_faith](../events/a_new_form_of_faith.md)
+ - [Hon_Sai_Decisions](../decisions/Hon_Sai_Decisions.md)

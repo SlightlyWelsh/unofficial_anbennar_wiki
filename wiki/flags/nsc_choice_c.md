@@ -1,0 +1,13 @@
+This flag is used in the following pages:
+ - [the_first_debate_the_role_of_the_chosen_in_society](../events/the_first_debate_the_role_of_the_chosen_in_society.md)
+ - [results_of_the_first_debate](../events/results_of_the_first_debate.md)
+ - [the_third_debate_the_treatment_of_heretics](../events/the_third_debate_the_treatment_of_heretics.md)
+ - [results_of_the_third_debate](../events/results_of_the_third_debate.md)
+ - [the_fourth_debate_the_stance_on_gnolls](../events/the_fourth_debate_the_stance_on_gnolls.md)
+ - [results_of_the_fourth_debate](../events/results_of_the_fourth_debate.md)
+ - [the_fifth_debate_the_order_of_the_zenith](../events/the_fifth_debate_the_order_of_the_zenith.md)
+ - [results_of_the_fifth_debate](../events/results_of_the_fifth_debate.md)
+ - [the_sixth_debate_funding_local_festivals](../events/the_sixth_debate_funding_local_festivals.md)
+ - [results_of_the_sixth_debate](../events/results_of_the_sixth_debate.md)
+ - [the_final_debate_jaher_s_nature](../events/the_final_debate_jaher_s_nature.md)
+ - [results_of_the_final_debate](../events/results_of_the_final_debate.md)

@@ -1,0 +1,129 @@
+#Information
+ - Title: Unsurprisingly the orcs within [orcish_causing_havoc_province.GetName] have caused issues, destroying the property of the local estates after a conflict started between them and some local spokesperson. What initially was only an argument with words soon turned worse when the spokesperson spoke ill about the orc's families.\n\nWhile it's hard to claim that the spokesperson didn't have it coming the estates are not happy with their property being destroyed. They now demand the orcs should be punished.
+ - ID: orcish_tolerance_events.0
+#Description
+Unsurprisingly the orcs within [orcish_causing_havoc_province.GetName] have caused issues, destroying the property of the local estates after a conflict started between them and some local spokesperson. What initially was only an argument with words soon turned worse when the spokesperson spoke ill about the orc's families.\n\nWhile it's hard to claim that the spokesperson didn't have it coming the estates are not happy with their property being destroyed. They now demand the orcs should be punished.
+#Mean Time to Happen:
+Base time = 1 days
+ - Multiplied by 10 if has country modifier is racial focus orcish
+
+#Options
+
+___
+##Unnamed Option
+
+###One of the following randomly happens:
+Outcome 1:
+
+Available if <li>any owned province:</li><ul><li>None of the following:</li><ul><li>has province modifier orcish_harsh_punishment_prov</li></ul><li>NOT:</li><ul><li>has province modifier orcish_normal_punishment_prov</li></ul><li>has orcish minority trigger yes</li></ul><li>current age is age_of_discovery</li>
+
+The weight of this outcome is 1
+ - Multiplied by 0.5 if has high tolerance orcish race trigger is yes
+
+The weight of this outcome is 1
+ - Multiplied by 1.5 if does not have stability is 0
+
+This outcome causes the following effects:<ul><li>the event [Orcs Destroying Property in [orcish_causing_havoc_province.GetName]](../events/orcs_destroying_property_in_orcish_causing_havoc_province_getname.md) happens</li></ul>
+Outcome 2:
+
+Available if <li>any owned province:</li><ul><li>None of the following:</li><ul><li>has province modifier orcish_bandits_punished</li></ul><li>NOT:</li><ul><li>has province modifier orcish_bandits_run_free</li></ul><li>NOT:</li><ul><li>has province modifier orcish_bandits_run_free_gov_support</li></ul><li>has orcish minority trigger yes</li></ul><li>None of the following:</li><ul><li>current age is age_of_discovery</li></ul>
+
+The weight of this outcome is 1 
+ - Multiplied by 0.5 if has high tolerance orcish race trigger is yes
+
+The weight of this outcome is 1 
+ - Multiplied by 1.5 if does not have stability is 0
+
+This outcome causes the following effects:<ul><li>the event [Orcish Bandits](../events/orcish_bandits.md) happens</li></ul>
+Outcome 3:
+
+Available if <li>any owned province:</li><ul><li>None of the following:</li><ul><li>has province modifier orcish_recruitment_province</li></ul><li>NOT:</li><ul><li>has province modifier orcish_angry_about_assumptions</li></ul><li>has orcish minority trigger yes</li></ul><li>is at war</li>
+
+The weight of this outcome is 1
+
+This outcome causes the following effects:<ul><li>the event [Orcs Bands Seeks a Fight](../events/orcs_bands_seeks_a_fight.md) happens</li></ul>
+Outcome 4:
+
+Available if <li>any owned province:</li><ul><li>Any of the following:</li><ul><li>has province modifier orcish_minority_oppressed_large</li><li>has province modifier  orcish_majority_oppressed</li></ul></ul><li>current age is age_of_discovery</li><li>None of the following:</li><ul><li>medium tolerance orcish race trigger is yes</li><li>high tolerance orcish race trigger is yes</li></ul>
+
+The weight of this outcome is 1
+
+This outcome causes the following effects:<ul><li>the event [Orcish Revolt](../events/orcish_revolt.md) happens</li></ul>
+Outcome 5:
+
+Available if <li>any owned province:</li><ul><li>has orcish minority trigger yes</li><li>trade goods is slaves</li></ul><li>None of the following:</li><ul><li>high tolerance orcish race trigger is yes</li></ul>
+
+The weight of this outcome is 1
+
+This outcome causes the following effects:<ul><li>the event [Orcish Slave Revolt](../events/orcish_slave_revolt.md) happens</li></ul>
+Outcome 6:
+
+Available if <li>any owned province:</li><ul><li>has orcish minority trigger yes</li><li>trade goods is slaves</li></ul><li>Any of the following:</li><ul><li>medium tolerance orcish race trigger is yes</li><li>high tolerance orcish race trigger is yes</li></ul><li>None of the following:</li><ul><li>current age is age_of_discovery</li></ul>
+
+The weight of this outcome is 1
+
+This outcome causes the following effects:<ul><li>the event [Orcish Adventurer Buys Slaves](../events/orcish_adventurer_buys_slaves.md) happens</li></ul>
+Outcome 7:
+
+Available if <li>any owned province:</li><ul><li>has orcish minority trigger yes</li><li>None of the following:</li><ul><li>has province modifier upset_local_slaveholders</li></ul></ul><li>None of the following:</li><ul><li>current age is age_of_discovery</li></ul>
+
+The weight of this outcome is 1     
+ - Multiplied by 2 if has medium tolerance orcish race trigger is yes
+
+The weight of this outcome is 1     
+ - Multiplied by 1.5 if has high tolerance orcish race trigger is yes
+
+This outcome causes the following effects:<ul><li>the event [Orcish Slaver Demands Recognition](../events/orcish_slaver_demands_recognition.md) happens</li></ul>
+Outcome 8:
+
+The weight of this outcome is 1      
+ - Multiplied by 1.5 if has medium tolerance orcish race trigger is yes
+
+The weight of this outcome is 1      
+ - Multiplied by 2 if has high tolerance orcish race trigger is yes
+
+This outcome causes the following effects:<ul><li>the event [Orcish Minister](../events/orcish_minister.md) happens</li></ul>
+Outcome 9:
+
+The weight of this outcome is 1
+
+This outcome causes the following effects:<ul><li>the event [Orcish Clan Courts](../events/orcish_clan_courts.md) happens</li></ul>
+Outcome 10:
+
+Available if <li>any owned province:</li><ul><li>has any orcish pop trigger yes</li><li>has any human pop trigger yes</li></ul><li>medium tolerance orcish race trigger is yes</li>
+
+The weight of this outcome is 1        
+ - Multiplied by 2 if has high tolerance orcish race trigger is yes
+
+This outcome causes the following effects:<ul><li>the event [New Half-Orcs](../events/new_half_orcs.md) happens</li></ul>
+Outcome 11:
+
+Available if <li>Any of the following:</li><ul><li>current age is age_of_discovery</li><li>current age  is age_of_reformation</li></ul><li>None of the following:</li><ul><li>high tolerance orcish race trigger is yes</li></ul>
+
+The weight of this outcome is 1         
+ - Multiplied by 2 if does not have low tolerance orcish race trigger is yes
+
+The weight of this outcome is 1         
+ - Multiplied by 2 if does not have stability is 0
+
+This outcome causes the following effects:<ul><li>the event [Orcish Ambushers](../events/orcish_ambushers.md) happens</li></ul>
+Outcome 12:
+
+The weight of this outcome is 1          
+ - Multiplied by 2 if does not have low tolerance orcish race trigger is yes
+
+The weight of this outcome is 1          
+ - Multiplied by 2 if does not have check variable has army professionalism is 0.25
+
+This outcome causes the following effects:<ul><li>the event [Orcish Soldiers of Fortune](../events/orcish_soldiers_of_fortune.md) happens</li></ul>
+Outcome 13:
+
+Available if <li>None of the following:</li><ul><li>current age is age_of_discovery</li></ul><li>NOT:</li><ul><li>has country modifier the_abolish_slavery_act</li></ul><li>any owned province:</li><ul><li>Any of the following:</li><ul><li>has orcish minority trigger yes</li><li>has orcish majority trigger yes</li></ul><li>trade goods is slaves</li></ul>
+
+The weight of this outcome is 1           
+ - Multiplied by 2 if has global flag is [orcish_slave_trade_banned_in_cannor](../flags/orcish_slave_trade_banned_in_cannor.md)
+
+The weight of this outcome is 1           
+ - Multiplied by 1.5 if does not have low tolerance orcish race trigger is yes
+
+This outcome causes the following effects:<ul><li>the event [Orcish Freeman Calls for Liberation](../events/orcish_freeman_calls_for_liberation.md) happens</li></ul>

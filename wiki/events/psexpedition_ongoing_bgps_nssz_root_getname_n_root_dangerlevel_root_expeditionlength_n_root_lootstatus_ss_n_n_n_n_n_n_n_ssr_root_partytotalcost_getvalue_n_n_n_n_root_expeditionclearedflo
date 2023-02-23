@@ -1,0 +1,22 @@
+#Information
+ - Title: £expedition_ongoing_bg£\n§Z[Root.GetName]\n[Root.DangerLevel]  [Root.ExpeditionLength]                                            \n                                                 [Root.LootStatus]§!\n\n\n\n\n\n\n                                                              §r[Root.partyTotalCost.GetValue]\n\n\n\n[Root.ExpeditionClearedFloorSmall][Root.ExpeditionCurrentFloorSmall]                                              \n                                                  §v[Root.LootValue]
+ - ID: diggy_expedition.10
+#Description
+£expedition_ongoing_bg£\n§Z[Root.GetName]\n[Root.DangerLevel]  [Root.ExpeditionLength]                                            \n                                                 [Root.LootStatus]§!\n\n\n\n\n\n\n                                                              §r[Root.partyTotalCost.GetValue]\n\n\n\n[Root.ExpeditionClearedFloorSmall][Root.ExpeditionCurrentFloorSmall]                                              \n                                                  §v[Root.LootValue]
+#Options
+
+___
+##£event_button_expedition_refresh£
+
+###AI weighting:
+AI weights this option at 100
+
+
+###Efects:<ul><li>hidden effect:</li><ul><li>fire province event [diggy_expedition.1005](diggy_expedition.1005_slug) immediately </li></ul></ul>
+
+___
+##£event_button_close£
+
+###AI weighting:
+AI weights this option at 100
+

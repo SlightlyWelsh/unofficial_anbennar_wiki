@@ -1,0 +1,27 @@
+#Information
+ - Title: Dismantling Wex
+ - ID: flavor_istralore.3
+#Description
+Dismantling Wex
+#Options
+
+___
+##Dismantle them
+
+###AI weighting:
+AI weights this option at 1
+
+
+###Efects:<ul><li>A30:</li><ul><li>the event [Disaster!](../events/disaster.md) happens</li></ul><li>tooltip:</li><ul><li>If has A30 has owns is 301:</li><ul><li>301:</li><ul><li>cede province = A37</li></ul></ul><li>If has A30 has owns is 576:</li><ul><li>576:</li><ul><li>cede province = A93</li></ul></ul><li>If has A30 has owns is 44:</li><ul><li>44:</li><ul><li>cede province = A93</li></ul></ul><li>If has A30 has owns is 280:</li><ul><li>280:</li><ul><li>cede province = A93</li></ul></ul><li>If has A30 has owns is 297:</li><ul><li>297:</li><ul><li>cede province = A93</li></ul></ul><li>If has A30 has owns is 307:</li><ul><li>307:</li><ul><li>cede province = A34</li></ul></ul><li>If has A30 has owns is 903:</li><ul><li>903:</li><ul><li>cede province = Z04</li></ul></ul><li>If has A30 has owns is 318:</li><ul><li>318:</li><ul><li>cede province = A48</li></ul></ul><li>If has A30 has owns is 907:</li><ul><li>907:</li><ul><li>cede province = A48</li></ul></ul><li>If has A30 has owns is 319:</li><ul><li>319:</li><ul><li>cede province = A48</li></ul></ul><li>If has A30 has owns is 918:</li><ul><li>918:</li><ul><li>cede province = A48</li></ul></ul><li>If has A30 has owns is 920:</li><ul><li>920:</li><ul><li>cede province = A75</li></ul></ul><li>If has A30 has owns is 321:</li><ul><li>321:</li><ul><li>cede province = A75</li></ul></ul><li>If has A30 has owns is 312:</li><ul><li>312:</li><ul><li>cede province = A75</li></ul></ul><li>If has A30 has owns is 326:</li><ul><li>326:</li><ul><li>cede province = A75</li></ul></ul><li>If has A30 has owns is 902:</li><ul><li>902:</li><ul><li>cede province = A60</li></ul></ul><li>If has A30 has owns is 310:</li><ul><li>310:</li><ul><li>cede province = A60</li></ul></ul><li>If has A30 has owns is 311:</li><ul><li>311:</li><ul><li>cede province = A60</li></ul></ul><li>If has A30 has owns is 320:</li><ul><li>320:</li><ul><li>cede province = A60</li></ul></ul><li>If has A30 has owns is 313:</li><ul><li>313:</li><ul><li>cede province = A72</li></ul></ul><li>If has A30 has owns is 418:</li><ul><li>418:</li><ul><li>cede province = A72</li></ul></ul><li>If has A30 has owns is 419:</li><ul><li>419:</li><ul><li>cede province = A72</li></ul></ul><li>If has A30 has owns is 904:</li><ul><li>904:</li><ul><li>cede province = A72</li></ul></ul><li>If has A30 has owns is 325:</li><ul><li>325:</li><ul><li>cede province = A72</li></ul></ul><li>If has A30 has owns is 302:</li><ul><li>302:</li><ul><li>cede province = A92</li></ul></ul><li>If has A30 has owns is 901:</li><ul><li>901:</li><ul><li>cede province = A92</li></ul></ul><li>If has A30 has owns is 309:</li><ul><li>309:</li><ul><li>cede province = A99</li></ul></ul><li>If has A30 has owns is 308:</li><ul><li>308:</li><ul><li>cede province = A73</li></ul></ul><li>If has A30 has owns is 912:</li><ul><li>912:</li><ul><li>cede province = A73</li></ul></ul><li>If has A30 has owns is 579:</li><ul><li>579:</li><ul><li>cede province = A34</li></ul></ul><li>If has A30 has owns is 300:</li><ul><li>300:</li><ul><li>cede province = A34</li></ul></ul></ul></ul>
+
+___
+##Spare them
+
+###AI weighting:
+AI weights this option at 0
+
+
+
+#Pages with same name:
+The following pages have the same name as this page:
+ - [dismantling_wex_1](dismantling_wex_1.md)

@@ -1,0 +1,2 @@
+This flag is used in the following pages:
+ - [the_war_room_kenu_ike_npsicon_command_war_room_bannersps_n_root_getcommandwarroombanner](../events/the_war_room_kenu_ike_npsicon_command_war_room_bannersps_n_root_getcommandwarroombanner.md)

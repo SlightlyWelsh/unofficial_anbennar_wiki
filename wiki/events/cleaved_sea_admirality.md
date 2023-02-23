@@ -1,0 +1,16 @@
+#Information
+ - Title: Cleaved Sea Admirality
+ - ID: flavor_ameion.35
+#Description
+Cleaved Sea Admirality
+#Options
+
+___
+##Grant [G59.GetName] the position of Cleaved Sea Admirality
+
+###Efects:<ul><li>hidden effect:</li><ul><li>If south america has region is devand region, and has area is arpenisi area; and is an island, and has area is vothelisi area:</li><ul><li>remove core = ROOT</li><li>remove claim = ROOT</li><li>add core = G59</li><li>cede province = G59</li></ul></ul><li>custom tooltip = ameion_nekhis_gyli_3</li><li>create subject:</li><ul><li>subject type = gylikheion</li><li>subject = G59</li></ul><li>hidden effect:</li><ul><li>G59:</li><ul><li>If south america has owned by is PREV, and does not have region is devand region, and does not have area is arpenisi area; and does not have an island, and does not have area is vothelisi area:</li><ul><li>If is core is owner:</li><ul><li>remove core = owner</li><li>add core = ROOT</li></ul><li>cede province = ROOT</li></ul></ul><li>If every province is claim is G59:</li><ul><li>remove claim = G59</li></ul><li>ameion gly clear claim core:</li><ul><li>TAG = G59</li></ul></ul><li>G59:</li><ul><li>country gets the modifier G52_cleaved_admiralty until otherwise removed</li><li>hidden effect:</li><ul><li>If does not have idea group is maritime ideas:</li><ul><li>add idea group = maritime_ideas</li></ul><li>If does not have idea group is naval ideas:</li><ul><li>add idea group = naval_ideas</li></ul></ul></ul><li>hidden effect:</li><ul><li>If has tag is G00:</li><ul><li>G59:</li><ul><li>change government to monarchy = yes</li></ul></ul></ul></ul>
+
+___
+##Allow the Nékheis to hold the islands, so long as they maintain a navy.
+
+###Efects:<ul><li>custom tooltip = ameion_nekhis_gyli_4</li><li>hidden effect:</li><ul><li>If south america has region is devand region, and has area is arpenisi area; and is an island, and has area is vothelisi area:</li><ul><li>remove core = ROOT</li><li>remove claim = ROOT</li><li>If has province id is 2735, and has province id is 2725, and has province id is 2724, and has province id is 2720:</li><ul><li>add core = G53</li><li>cede province = G53</li></ul><li>Else if has province id is 2774, and has province id is 2719, and has province id is 2721:</li><ul><li>add core = G58</li><li>cede province = G58</li></ul><li>Else if has province id is 2681, and has province id is 2722, and has province id is 2672:</li><ul><li>add core = G55</li><li>cede province = G55</li></ul><li>Else if has province id is 2718, and has province id is 2750, and has province id is 2747:</li><ul><li>add core = G54</li><li>cede province = G54</li></ul><li>Else if has province id is 2717, and has province id is 2716:</li><ul><li>add core = G57</li><li>cede province = G57</li></ul></ul></ul><li>G53:</li><ul><li>country gets the modifier G52_expanded_navy until otherwise removed</li></ul><li>hidden effect:</li><ul><li>G58:</li><ul><li>country gets the modifier G52_expanded_navy until otherwise removed</li></ul><li>G55:</li><ul><li>country gets the modifier G52_expanded_navy until otherwise removed</li></ul><li>G54:</li><ul><li>country gets the modifier G52_expanded_navy until otherwise removed</li></ul><li>G57:</li><ul><li>country gets the modifier G52_expanded_navy until otherwise removed</li></ul></ul></ul>

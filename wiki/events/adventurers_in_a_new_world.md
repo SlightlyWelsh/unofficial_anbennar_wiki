@@ -1,0 +1,14 @@
+#Information
+ - Title: Adventurers in a New World
+ - ID: anb_miscevents.8
+#Description
+Adventurers in a New World
+#Mean Time to Happen:
+Base time = 1 days
+
+#Options
+
+___
+##Onwards!
+
+###Efects:<ul><li>create conquistador:</li><ul><li>tradition = 50</li></ul><li>add militarised society = 50</li><li>If has capital scope has continent is serpentspine:</li><ul><li>country gets the modifier dwarovar_claimer for 40 years</li></ul><li>else:</li><ul><li>country gets the modifier spawned_adventurer_boost for 20 years</li></ul><li>capital scope:</li><ul><li>add core = ROOT</li><li>change culture = ROOT</li><li>change religion = ROOT</li><li>If has culture group is dwarven:</li><ul><li>build to forcelimit:</li><ul><li>infantry = 0.9</li><li>artillery = 0.1</li></ul></ul><li>else:</li><ul><li>build to forcelimit:</li><ul><li>infantry = 0.7</li><li>cavalry = 0.2</li><li>artillery = 0.1</li></ul></ul><li>If is institution enabled is feudalism, and  has any province has feudalism is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = feudalism</li><li>value = 100</li></ul></ul><li>If is institution enabled is renaissance, and  has any province has renaissance is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = renaissance</li><li>value = 100</li></ul></ul><li>If is institution enabled is new world i, and  has any province has new world i is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = new_world_i</li><li>value = 100</li></ul></ul><li>If is institution enabled is printing press, and  has any province has printing press is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = printing_press</li><li>value = 100</li></ul></ul><li>If is institution enabled is global trade, and  has any province has global trade is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = global_trade</li><li>value = 100</li></ul></ul><li>If is institution enabled is manufactories, and  has any province has manufactories is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = manufactories</li><li>value = 100</li></ul></ul><li>If is institution enabled is enlightenment, and  has any province has enlightenment is 90, and any province has culture group is ROOT:</li><ul><li>add institution embracement:</li><ul><li>which = enlightenment</li><li>value = 100</li></ul></ul></ul><li>hidden effect:</li><ul><li>If has tag is H54:</li><ul><li>change variable:</li><ul><li>which = ruinborn_race_tolerance_ai</li><li>value = 100</li></ul></ul><li>Else if has tag is H42:</li><ul><li>subtract variable:</li><ul><li>which = ruinborn_race_tolerance_ai</li><li>value = 100</li></ul></ul></ul></ul>

@@ -1,0 +1,22 @@
+This page has the same name as others. For full listing see bottom of [the base page](root_getname_changes_stance_in_debate2.md).
+
+#Information
+ - Title: [Root.GetName] Changes Stance in Debate!
+ - ID: parlaments.8
+#Description
+[Root.GetName] Changes Stance in Debate!
+#Mean Time to Happen:
+Base time = 80 months
+ - Multiplied by 0.5 if does not have percentage backing issue is 0.1
+ - Multiplied by 0.5 if does not have percentage backing issue is 0.25
+ - Multiplied by 0.5 if does not have percentage backing issue is 0.5
+ - Multiplied by 1.5 if has owner has percentage backing issue is 0.5
+ - Multiplied by 1.5 if has owner has percentage backing issue is 0.75
+ - Multiplied by 1.8 if has owner has percentage backing issue is 0.9
+
+#Options
+
+___
+##Great!
+
+###Efects:<ul><li>back current issue = yes</li></ul>

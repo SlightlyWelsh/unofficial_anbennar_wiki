@@ -1,0 +1,15 @@
+#Information
+ - Title: Missing localisation: infestation_ice_sleeper_2001_t
+ - ID: infestation_ice_sleeper.2001
+#Description
+
+#Options
+
+___
+##Unnamed Option
+
+###AI weighting:
+AI weights this option at 1
+
+
+###Efects:<ul><li>change culture = owner</li><li>change religion = owner</li><li>add devastation = 10</li></ul>

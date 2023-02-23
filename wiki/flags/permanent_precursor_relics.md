@@ -1,0 +1,10 @@
+This flag is used in the following pages:
+ - [divination](../events/divination.md)
+ - [hidden_dragon_a_realm_bound](../events/hidden_dragon_a_realm_bound.md)
+ - [birthplace_the_god_fragment](../events/birthplace_the_god_fragment.md)
+ - [the_vault_all_s_well_that_ends_well](../events/the_vault_all_s_well_that_ends_well.md)
+ - [pillar_of_the_heavens_a_path_to_the_stars](../events/pillar_of_the_heavens_a_path_to_the_stars.md)
+ - [the_jungle_s_soul_paradise_in_the_depths_of_hell](../events/the_jungle_s_soul_paradise_in_the_depths_of_hell.md)
+ - [the_plundering_of_root_getname](../events/the_plundering_of_root_getname.md)
+ - [Beikdugang_Missions](../missions/Beikdugang_Missions.md)
+ - [Moonhaven_missions](../missions/Moonhaven_missions.md)

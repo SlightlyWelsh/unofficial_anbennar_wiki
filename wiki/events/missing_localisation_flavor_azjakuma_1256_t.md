@@ -1,0 +1,11 @@
+#Information
+ - Title: Missing localisation: flavor_azjakuma_1256_t
+ - ID: flavor_azjakuma.1256
+#Description
+
+#Options
+
+___
+##Missing localisation: flavor_azjakuma_1256_z
+
+###Efects:<ul><li>trigger switch:</li><ul><li>on trigger = has_country_flag</li><li>shinukhorchi menu:</li><ul><li>the event [    Shinukhorchi Magic Menu\n£estate_magic_shinukhorchi_bg£\n\n\n\n[Root.GetSpellStrengthIndicatorShinukhorchi]                                   ](../events/shinukhorchi_magic_menu_npsestate_magic_shinukhorchi_bgps_n_n_n_n_root_getspellstrengthindicatorshinukhorchi.md) happens</li><li>clr country flag [shinukhorchi_menu](../flags/shinukhorchi_menu.md)</li></ul><li>chumijemoya menu:</li><ul><li>the event [    Chumijemoya Magic Menu\n£estate_magic_chumijemoya_bg£\n\n\n\n[Root.GetSpellStrengthIndicatorChumijemoya]                                   ](../events/chumijemoya_magic_menu_npsestate_magic_chumijemoya_bgps_n_n_n_n_root_getspellstrengthindicatorchumijemoya.md) happens</li><li>clr country flag [chumijemoya_menu](../flags/chumijemoya_menu.md)</li></ul><li>ajgriijarul menu:</li><ul><li>the event [    Ajgriijarul Magic Menu\n£estate_magic_ajgriijarul_bg£\n\n\n\n[Root.GetSpellStrengthIndicatorAjgriijarul]                                   ](../events/ajgriijarul_magic_menu_npsestate_magic_ajgriijarul_bgps_n_n_n_n_root_getspellstrengthindicatorajgriijarul.md) happens</li><li>clr country flag [ajgriijarul_menu](../flags/ajgriijarul_menu.md)</li></ul><li>kabiurgarko menu:</li><ul><li>the event [    Kabiurgarko Magic Menu\n£estate_magic_kabiurgarko_bg£\n\n\n\n[Root.GetSpellStrengthIndicatorKabiurgarko]                                   ](../events/kabiurgarko_magic_menu_npsestate_magic_kabiurgarko_bgps_n_n_n_n_root_getspellstrengthindicatorkabiurgarko.md) happens</li><li>clr country flag [kabiurgarko_menu](../flags/kabiurgarko_menu.md)</li></ul><li>khelorvalshi menu:</li><ul><li>the event [    Khelorvalshi Magic Menu\n£estate_magic_khelorvalshi_bg£\n\n\n\n[Root.GetSpellStrengthIndicatorKhelorvalshi]                                   ](../events/khelorvalshi_magic_menu_npsestate_magic_khelorvalshi_bgps_n_n_n_n_root_getspellstrengthindicatorkhelorvalshi.md) happens</li><li>clr country flag [khelorvalshi_menu](../flags/khelorvalshi_menu.md)</li></ul></ul></ul>

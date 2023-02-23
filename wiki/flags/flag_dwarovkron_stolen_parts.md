@@ -1,0 +1,10 @@
+This flag is used in the following pages:
+ - [the_kronium_crown](../events/the_kronium_crown.md)
+ - [the_amethyst_of_hul_az_krakazol](../events/the_amethyst_of_hul_az_krakazol.md)
+ - [the_diamond_of_arg_ordstun](../events/the_diamond_of_arg_ordstun.md)
+ - [the_citrine_of_seghdihr](../events/the_citrine_of_seghdihr.md)
+ - [the_ruby_of_rubyhold](../events/the_ruby_of_rubyhold.md)
+ - [the_jade_of_gronstunad](../events/the_jade_of_gronstunad.md)
+ - [the_sapphire_of_dur_vazhatun](../events/the_sapphire_of_dur_vazhatun.md)
+ - [the_agate_of_asra](../events/the_agate_of_asra.md)
+ - [the_dwarovkron](../events/the_dwarovkron.md)

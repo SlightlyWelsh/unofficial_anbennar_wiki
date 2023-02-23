@@ -1,0 +1,11 @@
+#Information
+ - Title: My Return
+ - ID: flavor_elikhand.9
+#Description
+My Return
+#Options
+
+___
+##Our Founder Returns!
+
+###Efects:<ul><li>define ruler:</li><ul><li>name = "Entef"</li><li>dynasty = "of Wibnuat"</li><li>male = yes</li><li>adm = 3</li><li>dip = 6</li><li>mil = 4</li><li>age = 33</li><li>claim = 100</li></ul><li>add ruler personality = immortal_personality</li><li>add ruler personality = mage_personality</li><li>set ruler flag [abjuration_1](../flags/abjuration_1.md)</li><li>set ruler flag [conjuration_1](../flags/conjuration_1.md)</li><li>set ruler flag [enchantment_1](../flags/enchantment_1.md)</li><li>set ruler flag [evocation_1](../flags/evocation_1.md)</li><li>set ruler flag [evocation_2](../flags/evocation_2.md)</li><li>set ruler flag [necromancy_1](../flags/necromancy_1.md)</li><li>set ruler flag [necromancy_2](../flags/necromancy_2.md)</li><li>set ruler flag [necromancy_3](../flags/necromancy_3.md)</li><li>set ruler flag [transmutation_1](../flags/transmutation_1.md)</li><li>If has country flag is [b38_entef_buried_well](../flags/b38_entef_buried_well.md):</li><ul><li>add ruler personality = charismatic_negotiator_personality</li><li>set ruler flag [illusion_1](../flags/illusion_1.md)</li><li>set ruler flag [conjuration_2](../flags/conjuration_2.md)</li><li>set ruler flag [divination_1](../flags/divination_1.md)</li><li>set ruler flag [enchantment_2](../flags/enchantment_2.md)</li><li>set ruler flag [transmutation_2](../flags/transmutation_2.md)</li></ul><li>set country flag [b38_entef_ruler](../flags/b38_entef_ruler.md)</li><li>If has tag is B38:</li><ul><li>swap non generic missions = yes</li></ul><li>ruler save spell schools = yes</li><li>set ruler flag [is_a_lich](../flags/is_a_lich.md)</li><li>set ruler flag [is_a_secret_lich](../flags/is_a_secret_lich.md)</li><li>add ruler modifier:</li><ul><li>name = entef_ruler</li><li>duration = -1</li></ul><li>set country flag [lich_ruler](../flags/lich_ruler.md)</li><li>set country flag [lich_ruler_has_phylactery](../flags/lich_ruler_has_phylactery.md)</li><li>set country flag [exposed_lich_ruler](../flags/exposed_lich_ruler.md)</li><li>set country flag [lich_ruler_male](../flags/lich_ruler_male.md)</li><li>save ruler stats = yes</li></ul>

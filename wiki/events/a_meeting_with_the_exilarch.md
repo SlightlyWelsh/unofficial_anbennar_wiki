@@ -1,0 +1,18 @@
+#Information
+ - Title: A Meeting with the Exilarch
+ - ID: flavor_dhenijanraj.3
+#Description
+A Meeting with the Exilarch
+#Options
+
+___
+##Organize the expedition. It is time to seize Grozumdihr.
+
+###Available if:
+<li>always</li>
+
+###AI weighting:
+AI weights this option at 1
+
+
+###Efects:<ul><li>add treasury = -1000</li><li>add manpower = -10</li><li>add adm power = -200</li><li>If has country or non sovereign subject holds is ROOT, and is not city:</li><ul><li>4265:</li><ul><li>add core = I18</li><li>cede province = I18</li><li>change culture = peridot_dwarf</li><li>change religion = high_philosophy</li></ul><li>hidden effect:</li><ul><li>I18:</li><ul><li>change religion = high_philosophy</li><li>change government = monarchy</li><li>add government reform = dwarovar_dwarven_clan_reform</li><li>set religious school:</li><ul><li>group = raheni</li><li>school = orange_sash_school</li></ul><li>define ruler:</li><ul><li>name = "Sindri 'the Returned'"</li><li>dynasty = "of the Peridot Flower"</li><li>adm = 5</li><li>dip = 4</li><li>mil = 4</li><li>age = 73</li><li>claim = 95</li></ul><li>grozumdihr area:</li><ul><li>add permanent claim = PREV</li></ul></ul></ul><li>create subject:</li><ul><li>subject type = autonomous_vassal</li><li>subject = I18</li></ul></ul><li>Else if has exists is I18:</li><ul><li>add casus belli:</li><ul><li>type = cb_vassalize_mission</li><li>months = 300</li><li>target = I18</li></ul></ul><li>else:</li><ul><li>4265:</li><ul><li>add permanent claim = ROOT</li></ul></ul></ul>

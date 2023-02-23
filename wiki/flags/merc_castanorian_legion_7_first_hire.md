@@ -1,0 +1,2 @@
+This flag is used in the following pages:
+ - [psicon_castanor_single_dragon_face_rightpsestablishment_of_the_magebound_legionpsicon_castanor_single_dragon_face_leftps](../events/psicon_castanor_single_dragon_face_rightpsestablishment_of_the_magebound_legionpsicon_castanor_single_dragon_face_leftps.md)

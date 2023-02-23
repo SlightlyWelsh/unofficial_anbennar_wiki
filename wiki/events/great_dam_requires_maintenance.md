@@ -1,0 +1,39 @@
+#Information
+ - Title: Great Dam Requires Maintenance
+ - ID: ynn_events.107
+#Description
+Great Dam Requires Maintenance
+#Options
+
+___
+##For the Ynn and its people, we gladly pay this price
+
+###AI weighting:
+AI weights this option at 10
+
+
+###Efects:<ul><li>If has great project has type is ynnic dam adbrabohvi, and has great project has tier is 1; and has great project has type is ynnic dam vels bacar, and has great project has tier is 1; and has great project has type is ynnic dam mocbarja, and has great project has tier is 1; and has great project has type is ynnic dam bosancovac, and has great project has tier is 1:</li><ul><li>owner:</li><ul><li>add treasury = -240</li></ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 11520</li></ul></ul><li>Else if has great project has type is ynnic dam adbrabohvi, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -300</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_adbrabohvi</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>Else if has great project has type is ynnic dam vels bacar, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -300</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_vels_bacar</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>Else if has great project has type is ynnic dam mocbarja, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -300</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_mocbarja</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>Else if has great project has type is ynnic dam bosancovac, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -300</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_bosancovac</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul></ul>
+
+___
+##The state cannot spare any money right now
+
+###AI weighting:
+AI weights this option at 1
+ - Multiplied by 10 if has owner is bankrupt
+
+
+###Efects:<ul><li>If has great project has type is ynnic dam adbrabohvi, and has great project has tier is 1:</li><ul><li>add great project tier:</li><ul><li>type = ynnic_dam_adbrabohvi</li><li>tier = -1</li></ul></ul><li>Else if has great project has type is ynnic dam vels bacar, and has great project has tier is 1:</li><ul><li>add great project tier:</li><ul><li>type = ynnic_dam_vels_bacar</li><li>tier = -1</li></ul></ul><li>Else if has great project has type is ynnic dam mocbarja, and has great project has tier is 1:</li><ul><li>add great project tier:</li><ul><li>type = ynnic_dam_mocbarja</li><li>tier = -1</li></ul></ul><li>Else if has great project has type is ynnic dam bosancovac, and has great project has tier is 1:</li><ul><li>add great project tier:</li><ul><li>type = ynnic_dam_bosancovac</li><li>tier = -1</li></ul></ul><li>else:</li><ul><li>custom tooltip = ynn_flooding_downstream_tt</li><li>random:</li><ul><li>chance = 50</li><li>owner:</li><ul><li>reduce stability or adm power = yes</li></ul></ul></ul><li>owner:</li><ul><li>add prestige = -5</li></ul></ul>
+
+___
+##Let us hire a company of dwarven engineers for the task
+
+###Available if:
+<li>owner:</li><ul><li>Any of the following:</li><ul><li>any known country:</li><ul><li>culture is dwarven is yes</li></ul><li>any owned province:</li><ul><li>has dwarven minority trigger yes</li><li>has dwarven majority trigger yes</li></ul></ul><li>None of the following:</li><ul><li>has country modifier racial_pop_dwarven_expulsion</li><li>has country modifier  racial_pop_dwarven_purge</li></ul></ul>
+
+###AI weighting:
+AI weights this option at 10
+ - Multiplied by 2 if has wants to increase tolerance dwarven is yes, and has high tolerance dwarven race trigger is yes
+ - Multiplied by 0.5 if has wants to decrease tolerance dwarven is yes, and has low tolerance dwarven race trigger is yes
+
+
+###Efects:<ul><li>highlight = yes</li><li>owner:</li><ul><li>small increase of dwarven tolerance effect = yes</li></ul><li>If has great project has type is ynnic dam adbrabohvi, and has great project has tier is 1; and has great project has type is ynnic dam vels bacar, and has great project has tier is 1; and has great project has type is ynnic dam mocbarja, and has great project has tier is 1; and has great project has type is ynnic dam bosancovac, and has great project has tier is 1:</li><ul><li>owner:</li><ul><li>add treasury = -300</li></ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 14400</li></ul></ul><li>Else if has great project has type is ynnic dam adbrabohvi, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -350</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_adbrabohvi</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>Else if has great project has type is ynnic dam vels bacar, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -350</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_vels_bacar</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>Else if has great project has type is ynnic dam mocbarja, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -350</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_mocbarja</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>Else if has great project has type is ynnic dam bosancovac, and has great project has tier is 0:</li><ul><li>owner:</li><ul><li>add treasury = -350</li></ul><li>add great project tier:</li><ul><li>type = ynnic_dam_bosancovac</li><li>tier = 1</li></ul><li>tooltip:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_recently_maintained</li><li>duration = 7200</li></ul></ul></ul><li>If does not have great project has type is ynnic dam adbrabohvi, and has great project has tier is 3; and does not have great project has type is ynnic dam vels bacar, and has great project has tier is 3; and does not have great project has type is ynnic dam mocbarja, and has great project has tier is 3; and does not have great project has type is ynnic dam bosancovac, and has great project has tier is 3:</li><ul><li>add province modifier:</li><ul><li>name = ynnic_dam_overseen_by_dwarves</li><li>duration = 3600</li></ul></ul><li>Else if has great project has type is ynnic dam adbrabohvi, and has great project has tier is 3; and has great project has type is ynnic dam vels bacar, and has great project has tier is 3; and has great project has type is ynnic dam mocbarja, and has great project has tier is 3; and has great project has type is ynnic dam bosancovac, and has great project has tier is 3:</li><ul><li>custom tooltip = on_dam_upgrade_tt_1</li><li>hidden effect:</li><ul><li>every province in state:</li><ul><li>add base production = 1</li></ul></ul></ul><li>random:</li><ul><li>chance = 50</li><li>add dwarven minority size effect = yes</li></ul></ul>

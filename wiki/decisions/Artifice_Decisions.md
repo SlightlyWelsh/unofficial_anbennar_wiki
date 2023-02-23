@@ -1,0 +1,5 @@
+This is a list of all [decisions](decisions.md) in the category "Artifice_Decisions"
+
+| Decision | Completion requirements | Effects | Requirements to appear |
+| ----- | ------ | ----- | ------ |
+| <a name="decision_display_artifice_capacity_breakdown">£icon_artificery_small£ §LDisplay Artifice Capacity Breakdown§!</a><br />*Click the decision to update the tooltip* | <li>custom trigger tooltip:</li><ul><li>tooltip is artifice_breakdown_decision_tt</li><li>always</li></ul> | <li>custom tooltip = Press the Decision to Update the Tooltip</li><li>hidden effect:</li><ul><li>the event [Artificer Capacity Breakdown](../events/artificer_capacity_breakdown.md) happens</li></ul><li>hidden effect:</li><ul><li>the event [The Artificers of $COUNTRY$](../events/the_artificers_of_country.md) happens</li></ul> | <li>is not controlled by the AI</li><li>Any of the following:</li><ul><li>has estate estate_artificers</li><li>All of the following:</li><ul><li>has estate estate_dragon_command</li><li>has institution manufactories</li></ul></ul> |

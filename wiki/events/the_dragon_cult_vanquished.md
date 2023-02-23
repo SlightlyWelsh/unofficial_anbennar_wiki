@@ -1,0 +1,11 @@
+#Information
+ - Title: The Dragon Cult Vanquished
+ - ID: ynn_events.26
+#Description
+The Dragon Cult Vanquished
+#Options
+
+___
+##They will write song about this day!
+
+###Efects:<ul><li>If has country flag is [drozma_slay_dragon](../flags/drozma_slay_dragon.md):</li><ul><li>add stability or adm power = yes</li><li>add prestige = 50</li><li>add splendor = 200</li><li>malacnar battleking rankup = yes</li><li>add authority = 20</li><li>add ruler modifier:</li><ul><li>name = ynn_dragonslayer</li><li>duration = -1</li></ul></ul><li>Else if has country flag is [drozma_die_to_dragon](../flags/drozma_die_to_dragon.md):</li><ul><li>hidden effect:</li><ul><li>set country flag [buried_at_drozma_last_stand](../flags/buried_at_drozma_last_stand.md)</li><li>event target:drozma last stand prov:</li><ul><li>set province flag [buried_at_drozma_last_stand_prov](../flags/buried_at_drozma_last_stand_prov.md)</li></ul></ul><li>kill ruler = yes</li><li>add prestige = 40</li><li>add splendor = 150</li><li>add authority = 20</li></ul><li>else:</li><ul><li>add prestige = 30</li><li>add splendor = 100</li><li>add authority = 10</li></ul><li>If has country flag is [drozma_grown_prince](../flags/drozma_grown_prince.md):</li><ul><li>tooltip:</li><ul><li>event target:drozma last stand prov:</li><ul><li>kill units:</li><ul><li>who = ROOT</li><li>type = infantry</li><li>amount = 5</li></ul></ul></ul></ul><li>custom tooltip = ynn_26_tooltip</li><li>hidden effect:</li><ul><li>If every known country has religion is ynn river worship, and has religion is ynn river reformed:</li><ul><li>add opinion:</li><ul><li>who = ROOT</li><li>modifier = yrw_dragonslayer</li></ul></ul><li>If every known country has religion is drozma tur:</li><ul><li>the event [Dragonless Once More](../events/dragonless_once_more.md) happens</li></ul><li>If ynn superregion has religion is drozma tur:</li><ul><li>change religion = ROOT</li><li>If has owned by is ROOT:</li><ul><li>heretic rebels = 1</li></ul></ul><li>clr country flag [drozma_fighting_last_stand](../flags/drozma_fighting_last_stand.md)</li><li>clr country flag [drozma_leader_v_dragon](../flags/drozma_leader_v_dragon.md)</li><li>clr country flag [drozma_die_to_dragon](../flags/drozma_die_to_dragon.md)</li><li>clr country flag [drozma_slay_dragon](../flags/drozma_slay_dragon.md)</li></ul></ul>

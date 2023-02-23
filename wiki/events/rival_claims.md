@@ -1,0 +1,4 @@
+ - [rival_claims_authority2](rival_claims_authority2.md)
+ - [rival_claims_authority2](rival_claims_authority2.md)
+ - [rival_claims_authority2](rival_claims_authority2.md)
+ - [rival_claims_authority22](rival_claims_authority22.md)

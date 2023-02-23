@@ -1,0 +1,39 @@
+#Information
+ - Title: Reforming our Troops' Composition
+ - ID: new_sun_cult.70
+#Description
+Reforming our Troops' Composition
+#Options
+
+___
+##Follow the old guard advice and focus on cavalry.
+
+###AI weighting:
+AI weights this option at 33
+ - Multiplied by 0.75 if has incident variable value has incident is incident bulwar under threat, and incident variable value has value is 1
+ - Multiplied by 5 if has tag is F25
+
+
+###Efects:<ul><li>custom tooltip = nsc_chosen_role_up_tt</li><li>add incident variable value:</li><ul><li>incident = incident_bulwar_under_threat</li><li>value = 1</li></ul><li>country gets the modifier nsc_cavalry_focus for 10 years</li></ul>
+
+___
+##Follow the vanguard advice and focus on specialised troops.
+
+###AI weighting:
+AI weights this option at 33
+
+
+###Efects:<ul><li>country gets the modifier nsc_specialised_focus for 10 years</li></ul>
+
+___
+##Rely on the humans and focus on mass infantry.
+
+###AI weighting:
+AI weights this option at 33
+ - Multiplied by 0.5 if does not have incident variable value has incident is incident bulwar under threat, and incident variable value has value is -2
+ - Multiplied by 0.5 if does not have incident variable value has incident is incident bulwar under threat, and incident variable value has value is -3
+ - Multiplied by 0.5 if does not have incident variable value has incident is incident bulwar under threat, and incident variable value has value is -4
+ - Multiplied by 0.1 if has tag is F25
+
+
+###Efects:<ul><li>custom tooltip = nsc_chosen_role_down_tt</li><li>add incident variable value:</li><ul><li>incident = incident_bulwar_under_threat</li><li>value = -1</li></ul><li>country gets the modifier nsc_mass_focus for 10 years</li></ul>

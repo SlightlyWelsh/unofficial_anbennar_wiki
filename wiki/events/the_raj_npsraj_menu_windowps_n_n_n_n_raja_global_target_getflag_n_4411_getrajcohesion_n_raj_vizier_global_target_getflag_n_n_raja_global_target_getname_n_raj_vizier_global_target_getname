@@ -1,0 +1,120 @@
+#Information
+ - Title: The Raj\n£raj_menu_window£\n\n\n\n[raja_global_target.GetFlag] \n[4411.GetRajCohesion]\n[raj_vizier_global_target.GetFlag]                                                               \n\n[raja_global_target.GetName] \n[raj_vizier_global_target.GetName]                                                               \n\n\n[4411.GetRajVizierBar]                                                               \n[Root.GetVizierRanking] 
+ - ID: rahenraj.3000
+#Description
+The Raj\n£raj_menu_window£\n\n\n\n[raja_global_target.GetFlag] \n[4411.GetRajCohesion]\n[raj_vizier_global_target.GetFlag]                                                               \n\n[raja_global_target.GetName] \n[raj_vizier_global_target.GetName]                                                               \n\n\n[4411.GetRajVizierBar]                                                               \n[Root.GetVizierRanking] 
+#Options
+
+___
+##£event_button_manage_ministries£
+
+###Available if:
+<li>has reform raja_reform</li>
+
+###Efects:<ul><li>goto = raja_capital_target</li><li>hidden effect:</li><ul><li>the event [Manage Ministries\n£raj_manage_ministries_window£](../events/manage_ministries_npsraj_manage_ministries_windowps.md) happens</li></ul></ul>
+
+___
+##£event_button_request_mandate£
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform raja_reform</li></ul><li>dip power is at least 50</li><li>NOT:</li><ul><li>has raj mandate yes</li></ul><li>NOT:</li><ul><li>has country modifier raj_mandate_denied</li></ul><li>hidden trigger:</li><ul><li>None of the following:</li><ul><li>has country flag [raj_requested_mandate](../flags/raj_requested_mandate.md)</li></ul></ul>
+
+###Efects:<ul><li>goto = raja_capital_target</li><li>custom tooltip = raj_open_mandate_menu_tt</li><li>add dip power = -50</li><li>hidden effect:</li><ul><li>set country flag [raj_requested_mandate](../flags/raj_requested_mandate.md)</li><li>the event [Request Mandate\n£raj_mandate_request_window£](../events/request_mandate_npsraj_mandate_request_windowps.md) happens</li><li>overlord:</li><ul><li>country gets the modifier raj_administration_is_busy for 10 days</li></ul></ul></ul>
+
+___
+##£event_button_request_mandate_g£
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform raja_reform</li></ul><li>Any of the following:</li><ul><li>None of the following:</li><ul><li>dip power is at least 50</li></ul><li>has raj mandate yes</li><li>has country modifier raj_mandate_denied</li><li>has country flag [raj_requested_mandate](../flags/raj_requested_mandate.md)</li></ul>
+
+###Efects:<ul><li>goto = raja_capital_target</li><li>custom tooltip = raj_option_unavailable_tt</li><li>If does not have dip power is 50:</li><ul><li>custom tooltip = raj_not_50_dip_tt</li></ul><li>If has raj mandate is yes:</li><ul><li>custom tooltip = raj_already_has_mandate_tt</li></ul><li>If has country modifier is raj mandate denied:</li><ul><li>custom tooltip = raj_got_denied_mandate_tt</li></ul><li>If has country flag is [raj_requested_mandate](../flags/raj_requested_mandate.md):</li><ul><li>custom tooltip = raj_request_pending_tt</li></ul><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_mandate_settings£
+
+###Available if:
+<li>has reform raja_reform</li>
+
+###Efects:<ul><li>goto = raj_vizier_capital_target</li><li>hidden effect:</li><ul><li>the event [Mandate Requests Settings\n£raj_mandate_settings_window£](../events/mandate_requests_settings_npsraj_mandate_settings_windowps.md) happens</li></ul></ul>
+
+___
+##£event_button_request_senapti£
+
+###Available if:
+<li>is subject of type is daimyo_vassal</li><li>None of the following:</li><ul><li>has country flag [potential_senapti](../flags/potential_senapti.md)</li></ul><li>dip power is at least 25</li><li>if:</li><ul><li>limit:</li><ul><li>overlord:</li><ul><li>has country modifier raj_closed_senapti_ranks</li></ul></ul><li>if:</li><ul><li>limit:</li><ul><li>overlord:</li><ul><li>culture group is harimari</li></ul></ul><li>ruler is harimari is yes</li></ul><li>else:</li><ul><li>ruler is human is yes</li></ul></ul><li>NOT:</li><ul><li>has country modifier prabhi_promotion_rejected</li></ul><li>NOT:</li><ul><li>has country modifier senapti_recently_demoted</li></ul><li>NOT:</li><ul><li>has country modifier raj_mandate_extended_prabhi_privileges</li></ul><li>num of cities is at least 2</li><li>raj below allowed senaptia is yes</li>
+
+###Efects:<ul><li>goto = raj_vizier_capital_target</li><li>add dip power = -25</li><li>custom tooltip = raj_senapti_candidate_score_factors_tt</li><li>hidden effect:</li><ul><li>set country flag [potential_senapti](../flags/potential_senapti.md)</li><li>save event target as = next_ai_senapti</li><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li><li>overlord:</li><ul><li>the event [A Potential Senapti](../events/a_potential_senapti.md) happens</li></ul></ul></ul>
+
+___
+##£event_button_request_senapti_g£
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform raja_reform</li></ul><li>Any of the following:</li><ul><li>None of the following:</li><ul><li>dip power is at least 25</li></ul><li>NOT:</li><ul><li>is subject of type is daimyo_vassal</li></ul><li>has country flag [potential_senapti](../flags/potential_senapti.md)</li><li>if:</li><ul><li>limit:</li><ul><li>overlord:</li><ul><li>has country modifier raj_closed_senapti_ranks</li></ul></ul><li>if:</li><ul><li>limit:</li><ul><li>overlord:</li><ul><li>culture group is harimari</li></ul></ul><li>None of the following:</li><ul><li>ruler is harimari is yes</li></ul></ul><li>else:</li><ul><li>None of the following:</li><ul><li>ruler is human is yes</li></ul></ul></ul><li>has country modifier prabhi_promotion_rejected</li><li>has country modifier  senapti_recently_demoted</li><li>has country modifier   raj_mandate_extended_prabhi_privileges</li><li>NOT:</li><ul><li>num of cities is at least 2</li></ul><li>NOT:</li><ul><li>raj below allowed senaptia is yes</li></ul></ul>
+
+###Efects:<ul><li>goto = raj_vizier_capital_target</li><li>If is subject of type is great daimyo vassal:</li><ul><li>custom tooltip = raj_already_senapti_tt</li></ul><li>else:</li><ul><li>custom tooltip = raj_option_unavailable_tt</li><li>If does not have raj below allowed senaptia is yes:</li><ul><li>custom tooltip = raj_no_senaptia_available_tt</li></ul><li>If does not have dip power is 25:</li><ul><li>custom tooltip = raj_not_25_dip_tt</li></ul><li>If does not have subject of type is daimyo vassal:</li><ul><li>custom tooltip = raj_not_prabhi_tt</li></ul><li>If has overlord has country modifier is raj closed senapti ranks:</li><ul><li>If has overlord has culture group is harimari; and does not have ruler is harimari is yes:</li><ul><li>custom tooltip = raj_not_ruler_harimari_tt</li></ul><li>Else if has overlord has culture is human is yes; and does not have ruler is human is yes:</li><ul><li>custom tooltip = raj_not_ruler_human_tt</li></ul></ul><li>If has country modifier is prabhi promotion rejected:</li><ul><li>custom tooltip = raj_promotion_rejection_tt</li></ul><li>If has country modifier is senapti recently demoted:</li><ul><li>custom tooltip = raj_recently_demoted_tt</li></ul><li>If has country modifier is raj mandate extended prabhi privileges:</li><ul><li>custom tooltip = raj_extended_prabhi_privileges_modifier_tt</li></ul><li>If does not have num of cities is 2:</li><ul><li>custom tooltip = raj_not_2_provinces_tt</li></ul></ul><li>custom tooltip = raj_senapti_candidate_score_factors_tt</li><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_dismiss_vizier£
+
+###Available if:
+<li>has reform raja_reform</li><li>4411:</li><ul><li>check variable:</li><ul><li>which is raj_cohesion</li><li>which  is vizierSway</li></ul></ul>
+
+###Efects:<ul><li>hidden effect:</li><ul><li>the event [Dismissing the Grand Vizier](../events/dismissing_the_grand_vizier.md) happens</li></ul></ul>
+
+___
+##£event_button_dismiss_vizier_g£
+
+###Available if:
+<li>has reform raja_reform</li><li>4411:</li><ul><li>None of the following:</li><ul><li>check variable:</li><ul><li>which is raj_cohesion</li><li>which  is vizierSway</li></ul></ul></ul>
+
+###Efects:<ul><li>custom tooltip = raj_option_unavailable_tt</li><li>custom tooltip = raj_cohesion_lower_than_sway_tt</li><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_vizier_sway£
+
+###Available if:
+<li>has country flag [raj_vizier](../flags/raj_vizier.md)</li>
+
+###Efects:<ul><li>hidden effect:</li><ul><li>the event [Vizier Actions\n£raj_vizier_window£](../events/vizier_actions_npsraj_vizier_windowps.md) happens</li></ul></ul>
+
+___
+##£event_button_sabotage_cohesion£
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform raja_reform</li></ul><li>NOT:</li><ul><li>has country flag [raj_vizier](../flags/raj_vizier.md)</li></ul><li>overlord:</li><ul><li>has spy network from:</li><ul><li>this nation</li><li>value is at least 30</li></ul></ul>
+
+###Efects:<ul><li>tooltip:</li><ul><li>raj cohesion change absolute:</li><ul><li>amount = -1</li></ul></ul><li>overlord:</li><ul><li>add spy network from:</li><ul><li>who = ROOT</li><li>value = -30</li></ul><li>the event [Someone seems to be sabotaging the Raj!](../events/someone_seems_to_be_sabotaging_the_raj.md) happens</li></ul><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_sabotage_cohesion_g£
+
+###Available if:
+<li>None of the following:</li><ul><li>has reform raja_reform</li></ul><li>NOT:</li><ul><li>has country flag [raj_vizier](../flags/raj_vizier.md)</li></ul><li>NOT:</li><ul><li>overlord:</li><ul><li>has spy network from:</li><ul><li>this nation</li><li>value is at least 30</li></ul></ul></ul>
+
+###Efects:<ul><li>custom tooltip = raj_option_unavailable_tt</li><li>custom tooltip = raj_need_30_spy_network_tt</li><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_refresh_window£
+
+###Efects:<ul><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_hide_window£
+
+###Available if:
+<li>None of the following:</li><ul><li>has country flag [raj_info_window_hidden](../flags/raj_info_window_hidden.md)</li></ul>
+
+###Efects:<ul><li>set country flag [raj_info_window_hidden](../flags/raj_info_window_hidden.md)</li><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_show_window£
+
+###Available if:
+<li>has country flag [raj_info_window_hidden](../flags/raj_info_window_hidden.md)</li>
+
+###Efects:<ul><li>clr country flag [raj_info_window_hidden](../flags/raj_info_window_hidden.md)</li><li>hidden effect:</li><ul><li>the event [Missing localisation: rahenraj_3001_t](../events/missing_localisation_rahenraj_3001_t.md) happens</li></ul></ul>
+
+___
+##£event_button_close£
+
+###Efects:<ul><li>clr country flag [raj_menu_open](../flags/raj_menu_open.md)</li></ul>

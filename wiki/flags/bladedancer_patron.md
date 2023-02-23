@@ -1,0 +1,2 @@
+This flag is used in the following pages:
+ - [evocation_npsruler_magic_evocation_bgps_n_n_root_getschoolmasteryevocation_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis](../events/evocation_npsruler_magic_evocation_bgps_n_n_root_getschoolmasteryevocation_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis.md)

@@ -1,0 +1,5 @@
+This is a list of all [decisions](decisions.md) in the category "Bulwari_Ruins_Decisions"
+
+| Decision | Completion requirements | Effects | Requirements to appear |
+| ----- | ------ | ----- | ------ |
+| <a name="rebuild_the_stone_palace">Rebuild the Stone Palace</a><br />*Ekluzagnu, the Stone Palace, lies in ruins. The prestigious, ornate fortress, the center of states that have come and gone for millennia has long served as a symbol of dominance over the Šad Sur. Were we to revitalize the wonder, it would create a trophy that proves our legitimacy, and solidify our grasp on the region.* | <li>treasury is at least 350</li> | <li>add treasury = -350</li><li>clr country flag [rebuilding_ekluzagnu_fortress](../flags/rebuilding_ekluzagnu_fortress.md)</li><li>clr country flag [rebuilding_ekluzagnu_palace](../flags/rebuilding_ekluzagnu_palace.md)</li><li>the event [Rebuilding the Ekluzagnu](../events/rebuilding_the_ekluzagnu.md) happens</li> | <li>owns core province 688</li><li>688:</li><ul><li>has province modifier ruined_ekluzagnu</li><li>None of the following:</li><ul><li>has province modifier rebuilding_ekluzagnu</li></ul></ul> |

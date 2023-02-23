@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [a_new_dominion](../events/a_new_dominion.md)
+ - [Black_Demense_Nation_Decisions](../decisions/Black_Demense_Nation_Decisions.md)

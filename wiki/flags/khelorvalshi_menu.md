@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [khelorvalshi_magic_menu_npsestate_magic_khelorvalshi_bgps_n_n_n_n_root_getspellstrengthindicatorkhelorvalshi](../events/khelorvalshi_magic_menu_npsestate_magic_khelorvalshi_bgps_n_n_n_n_root_getspellstrengthindicatorkhelorvalshi.md)
+ - [missing_localisation_flavor_azjakuma_1256_t](../events/missing_localisation_flavor_azjakuma_1256_t.md)

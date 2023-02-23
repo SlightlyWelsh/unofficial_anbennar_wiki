@@ -1,0 +1,16 @@
+#Information
+ - Title: Failed the Trial of Balance
+ - ID: one_xia.80
+#Description
+Failed the Trial of Balance
+#Options
+
+___
+##Damn!
+
+###Efects:<ul><li>add ruler modifier:</li><ul><li>name = xia_failed_trial_of_balance</li><li>duration = -1</li></ul><li>hidden effect:</li><ul><li>clr country flag [xia_affinity_fire](../flags/xia_affinity_fire.md)</li><li>clr country flag [xia_affinity_water](../flags/xia_affinity_water.md)</li><li>clr country flag [xia_affinity_wood](../flags/xia_affinity_wood.md)</li><li>clr country flag [xia_affinity_earth](../flags/xia_affinity_earth.md)</li><li>clr country flag [xia_affinity_metal](../flags/xia_affinity_metal.md)</li><li>clr country flag [xia_two_fire](../flags/xia_two_fire.md)</li><li>clr country flag [xia_two_water](../flags/xia_two_water.md)</li><li>clr country flag [xia_two_wood](../flags/xia_two_wood.md)</li><li>clr country flag [xia_two_earth](../flags/xia_two_earth.md)</li><li>clr country flag [xia_two_metal](../flags/xia_two_metal.md)</li><li>clr country flag [xia_too_much_fire](../flags/xia_too_much_fire.md)</li><li>clr country flag [xia_too_much_water](../flags/xia_too_much_water.md)</li><li>clr country flag [xia_too_much_wood](../flags/xia_too_much_wood.md)</li><li>clr country flag [xia_too_much_earth](../flags/xia_too_much_earth.md)</li><li>clr country flag [xia_too_much_metal](../flags/xia_too_much_metal.md)</li><li>clr country flag [xia_in_trial_of_balance](../flags/xia_in_trial_of_balance.md)</li></ul></ul>
+
+___
+##I tire of balance. Relinquish the sword or die!
+
+###Efects:<ul><li>add mil power = -100</li><li>custom tooltip = xia_end_the_keepers_tooltip</li><li>country gets the modifier xia_ended_the_keepers until otherwise removed</li><li>clr country flag [xia_rejected_balance](../flags/xia_rejected_balance.md)</li><li>4811:</li><ul><li>add base tax = -3</li><li>add base production = -3</li><li>add base manpower = -5</li><li>add devastation = 75</li><li>add nationalism = 50</li></ul><li>hidden effect:</li><ul><li>clr country flag [xia_affinity_fire](../flags/xia_affinity_fire.md)</li><li>clr country flag [xia_affinity_water](../flags/xia_affinity_water.md)</li><li>clr country flag [xia_affinity_wood](../flags/xia_affinity_wood.md)</li><li>clr country flag [xia_affinity_earth](../flags/xia_affinity_earth.md)</li><li>clr country flag [xia_affinity_metal](../flags/xia_affinity_metal.md)</li><li>clr country flag [xia_two_fire](../flags/xia_two_fire.md)</li><li>clr country flag [xia_two_water](../flags/xia_two_water.md)</li><li>clr country flag [xia_two_wood](../flags/xia_two_wood.md)</li><li>clr country flag [xia_two_earth](../flags/xia_two_earth.md)</li><li>clr country flag [xia_two_metal](../flags/xia_two_metal.md)</li><li>clr country flag [xia_too_much_fire](../flags/xia_too_much_fire.md)</li><li>clr country flag [xia_too_much_water](../flags/xia_too_much_water.md)</li><li>clr country flag [xia_too_much_wood](../flags/xia_too_much_wood.md)</li><li>clr country flag [xia_too_much_earth](../flags/xia_too_much_earth.md)</li><li>clr country flag [xia_too_much_metal](../flags/xia_too_much_metal.md)</li><li>clr country flag [xia_in_trial_of_balance](../flags/xia_in_trial_of_balance.md)</li></ul></ul>

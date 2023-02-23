@@ -1,0 +1,18 @@
+#Information
+ - Title: The Crystal Heart
+ - ID: aelnar.93
+#Description
+The Crystal Heart
+#Mean Time to Happen:
+Base time = 6 months
+
+#Options
+
+___
+##The future is Elissa, and Elissa is me.
+
+###AI weighting:
+AI weights this option at 100
+
+
+###Efects:<ul><li>add ruler modifier:</li><ul><li>name = aelnar_elissa_heart</li><li>duration = -1</li></ul><li>increase witch king points large = yes</li><li>increase witch king points large = yes</li><li>If does not have ruler has mage personality is yes:</li><ul><li>add ruler personality = mage_personality</li></ul><li>custom tooltip = improve_all_magic_school_tooltip</li><li>hidden effect:</li><ul><li>If has ruler flag is [evocation_2](../flags/evocation_2.md):</li><ul><li>set ruler flag [evocation_3](../flags/evocation_3.md)</li></ul><li>Else if has ruler flag is [evocation_1](../flags/evocation_1.md):</li><ul><li>set ruler flag [evocation_2](../flags/evocation_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [evocation_1](../flags/evocation_1.md)</li></ul><li>If has ruler flag is [divination_2](../flags/divination_2.md):</li><ul><li>set ruler flag [divination_3](../flags/divination_3.md)</li></ul><li>Else if has ruler flag is [divination_1](../flags/divination_1.md):</li><ul><li>set ruler flag [divination_2](../flags/divination_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [divination_1](../flags/divination_1.md)</li></ul><li>If has ruler flag is [transmutation_2](../flags/transmutation_2.md):</li><ul><li>set ruler flag [transmutation_3](../flags/transmutation_3.md)</li></ul><li>Else if has ruler flag is [transmutation_1](../flags/transmutation_1.md):</li><ul><li>set ruler flag [transmutation_2](../flags/transmutation_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [transmutation_1](../flags/transmutation_1.md)</li></ul><li>If has ruler flag is [illusion_2](../flags/illusion_2.md):</li><ul><li>set ruler flag [illusion_3](../flags/illusion_3.md)</li></ul><li>Else if has ruler flag is [illusion_1](../flags/illusion_1.md):</li><ul><li>set ruler flag [illusion_2](../flags/illusion_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [illusion_1](../flags/illusion_1.md)</li></ul><li>If has ruler flag is [necromancy_2](../flags/necromancy_2.md):</li><ul><li>set ruler flag [necromancy_3](../flags/necromancy_3.md)</li></ul><li>Else if has ruler flag is [necromancy_1](../flags/necromancy_1.md):</li><ul><li>set ruler flag [necromancy_2](../flags/necromancy_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [necromancy_1](../flags/necromancy_1.md)</li></ul><li>If has ruler flag is [abjuration_2](../flags/abjuration_2.md):</li><ul><li>set ruler flag [abjuration_3](../flags/abjuration_3.md)</li></ul><li>Else if has ruler flag is [abjuration_1](../flags/abjuration_1.md):</li><ul><li>set ruler flag [abjuration_2](../flags/abjuration_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [abjuration_1](../flags/abjuration_1.md)</li></ul><li>If has ruler flag is [enchantment_2](../flags/enchantment_2.md):</li><ul><li>set ruler flag [enchantment_3](../flags/enchantment_3.md)</li></ul><li>Else if has ruler flag is [enchantment_1](../flags/enchantment_1.md):</li><ul><li>set ruler flag [enchantment_2](../flags/enchantment_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [enchantment_1](../flags/enchantment_1.md)</li></ul><li>If has ruler flag is [conjuration_2](../flags/conjuration_2.md):</li><ul><li>set ruler flag [conjuration_3](../flags/conjuration_3.md)</li></ul><li>Else if has ruler flag is [conjuration_1](../flags/conjuration_1.md):</li><ul><li>set ruler flag [conjuration_2](../flags/conjuration_2.md)</li></ul><li>else:</li><ul><li>set ruler flag [conjuration_1](../flags/conjuration_1.md)</li></ul></ul></ul>

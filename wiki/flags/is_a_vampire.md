@@ -1,0 +1,11 @@
+This flag is used in the following pages:
+ - [arannese_landlords_found_joint_stock_company](../events/arannese_landlords_found_joint_stock_company.md)
+ - [conclave_to_restore_the_masquerade](../events/conclave_to_restore_the_masquerade.md)
+ - [vampire_hunters_in_the_country](../events/vampire_hunters_in_the_country.md)
+ - [vampire_returns](../events/vampire_returns.md)
+ - [the_new_chancellor](../events/the_new_chancellor.md)
+ - [the_new_chancellor_1](../events/the_new_chancellor_1.md)
+ - [unlimited_power_1](../events/unlimited_power_1.md)
+ - [necromancy_npsruler_magic_necromancy_bgps_n_n_root_getschoolmasterynecromancy_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis](../events/necromancy_npsruler_magic_necromancy_bgps_n_n_root_getschoolmasterynecromancy_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis.md)
+ - [Corvuria_Missions](../missions/Corvuria_Missions.md)
+ - [Magic_Ruler_Decisions](../decisions/Magic_Ruler_Decisions.md)

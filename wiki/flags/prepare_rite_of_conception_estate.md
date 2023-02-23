@@ -1,0 +1,2 @@
+This flag is used in the following pages:
+ - [acolytes_estate_magic_npsestate_magic_acolytes_bgps_n_n_n_n_root_getspellstrengthindicatoracolytes](../events/acolytes_estate_magic_npsestate_magic_acolytes_bgps_n_n_n_n_root_getspellstrengthindicatoracolytes.md)

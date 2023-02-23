@@ -1,0 +1,3 @@
+This flag is used in the following pages:
+ - [transmutation_npsruler_magic_transmutation_bgps_n_n_root_getschoolmasterytransmutation_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis](../events/transmutation_npsruler_magic_transmutation_bgps_n_n_root_getschoolmasterytransmutation_n_n_n_root_getmagicstudyschoolbis_root_getmagicstudybarbis.md)
+ - [rise_of_a_witch_king](../events/rise_of_a_witch_king.md)

@@ -1,0 +1,11 @@
+This flag is used in the following pages:
+ - [siege_magic_npssiege_magic_bgps](../events/siege_magic_npssiege_magic_bgps.md)
+ - [summon_siege_elemental](../events/summon_siege_elemental.md)
+ - [thunderstorm](../events/thunderstorm.md)
+ - [dominate_to_surrender](../events/dominate_to_surrender.md)
+ - [greater_fireball](../events/greater_fireball.md)
+ - [earthquake_1](../events/earthquake_1.md)
+ - [meteor_strike](../events/meteor_strike.md)
+ - [shapechange_into_giant](../events/shapechange_into_giant.md)
+ - [shapechange_into_dragon](../events/shapechange_into_dragon.md)
+ - [Magic_Ruler_Decisions](../decisions/Magic_Ruler_Decisions.md)

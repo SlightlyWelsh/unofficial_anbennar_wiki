@@ -1,0 +1,11 @@
+#Information
+ - Title: Results of the Fifth Debate
+ - ID: new_sun_cult.137
+#Description
+Results of the Fifth Debate
+#Options
+
+___
+##And so the fate of the Order is made clear.
+
+###Efects:<ul><li>If has REB has check variable has which is nscChoiceAVar, and check variable has which is nscChoiceBVar; and REB has check variable has which is nscChoiceAVar, and check variable has which is nscChoiceCVar:</li><ul><li>custom tooltip = nsc_irrliam_keeps_the_order_tt</li></ul><li>Else if has REB has check variable has which is nscChoiceBVar, and check variable has which is nscChoiceAVar; and REB has check variable has which is nscChoiceBVar, and check variable has which is nscChoiceCVar:</li><ul><li>custom tooltip = nsc_everyone_get_the_order_tt</li><li>set country flag [order_of_the_zenith](../flags/order_of_the_zenith.md)</li></ul><li>else:</li><ul><li>custom tooltip = nsc_disband_the_order_tt</li><li>If has tag is F37:</li><ul><li>clr country flag [order_of_the_zenith](../flags/order_of_the_zenith.md)</li></ul></ul><li>If has REB has check variable has which is nscIrrliamChoicesVar, and check variable has value is 66:</li><ul><li>custom tooltip = nsc_big_increase_unity_irrliam_tt</li></ul><li>Else if has REB has check variable has which is nscIrrliamChoicesVar, and check variable has value is 33:</li><ul><li>custom tooltip = nsc_small_increase_unity_irrliam_tt</li></ul><li>If has check variable has which is nscChoiceAVar, and check variable has value is 66; and has check variable has which is nscChoiceBVar, and check variable has value is 66; and has check variable has which is nscChoiceCVar, and check variable has value is 66:</li><ul><li>custom tooltip = nsc_big_increase_unity_same_tt</li></ul><li>Else if has check variable has which is nscChoiceAVar, and check variable has value is 50; and has check variable has which is nscChoiceBVar, and check variable has value is 50; and has check variable has which is nscChoiceCVar, and check variable has value is 50:</li><ul><li>custom tooltip = nsc_small_increase_unity_same_tt</li></ul><li>else:</li><ul><li>custom tooltip = nsc_stagnating_unity_tt</li></ul><li>clr country flag [nsc_choice_a](../flags/nsc_choice_a.md)</li><li>clr country flag [nsc_choice_b](../flags/nsc_choice_b.md)</li><li>clr country flag [nsc_choice_c](../flags/nsc_choice_c.md)</li></ul>

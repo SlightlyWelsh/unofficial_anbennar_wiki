@@ -1,0 +1,11 @@
+This flag is used in the following pages:
+ - [11](../events/11.md)
+ - [the_gnawing_hunger](../events/the_gnawing_hunger.md)
+ - [the_beast_inside](../events/the_beast_inside.md)
+ - [the_unending_obsession](../events/the_unending_obsession.md)
+ - [the_hunt_begins](../events/the_hunt_begins.md)
+ - [the_hunt_until_dawn](../events/the_hunt_until_dawn.md)
+ - [the_impossible_triumph_over_death_itself](../events/the_impossible_triumph_over_death_itself.md)
+ - [the_hunt_a_second_shadow](../events/the_hunt_a_second_shadow.md)
+ - [the_hunt_attacked_by_vagrants](../events/the_hunt_attacked_by_vagrants.md)
+ - [the_hunt_bloodbath_in_court](../events/the_hunt_bloodbath_in_court.md)
