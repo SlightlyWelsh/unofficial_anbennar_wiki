@@ -95,10 +95,7 @@ if __name__ == '__main__':
             pickle.dump(files_with_ids, id_file)
 
     if save.startswith("crosslink"):
-        #files_with_ids = [*set(files_with_ids)]
-
-        files_with_ids = ["./wiki/missions/"+f for f in os.listdir("./wiki/missions/") if os.path.isfile(os.path.join("./wiki/missions/", f))]
-        files_with_ids += ["./wiki/decisions/"+f for f in os.listdir("./wiki/decisions/") if os.path.isfile(os.path.join("./wiki/decisions/", f))]
+        files_with_ids = [*set(files_with_ids)]
         counter = int(save[9:])
         i = 0
         for file in files_with_ids:
